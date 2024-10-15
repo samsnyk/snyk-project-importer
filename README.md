@@ -40,6 +40,8 @@ This script helps manage Snyk projects by importing unimported repositories from
     Click on the "Export" button, and then confirm by clicking the Export button in the pop-up.
     Save the file to your local machine.
 
+    ![Export Button](./asset_inventory.png?raw=true "Export Button")
+
 2. Run the script with the following command:
 ```
 python main.py <csv_file_path>
