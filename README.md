@@ -1,4 +1,4 @@
-# Snyk Project Manager
+# Snyk Project Importer
 
 This script helps manage Snyk projects by importing unimported repositories from a CSV file exported from Snyk's AppRisk Inventory.
 
@@ -35,7 +35,12 @@ This script helps manage Snyk projects by importing unimported repositories from
 
 ## Usage
 
-Run the script with the following command:
+1. Generate a CSV file from Snyk's AppRisk Inventory.
+    In the Snyk UI, go to the AppRisk Inventory page.
+    Click on the "Export" button, and then confirm by clicking the Export button in the pop-up.
+    Save the file to your local machine.
+
+2. Run the script with the following command:
 ```
 python main.py <csv_file_path>
 ```
